@@ -1,6 +1,8 @@
-# Read Me
+# Little Belroy Robot
 
-To run the little Belroy Robot demo
+A hosted demo of the little Belroy Robot can be found [here](https://bellroy-robot.vercel.app/).
+
+To run the little Belroy Robot demo locally...
 
 1. `npm install`.
 2. `npm run build`

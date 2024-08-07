@@ -1,0 +1,5 @@
+.cell {
+  border: 1px solid rgb(var(--background-dark-rgb));
+  /* width: 20%;
+  height: 20%; */
+}

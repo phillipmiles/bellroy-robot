@@ -1,0 +1,51 @@
+.robot {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 200ms;
+}
+
+.imageWrap {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+.direction {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: transform 200ms;
+}
+
+.arrowWrap {
+  position: relative;
+  width: 40%;
+  height: 40%;
+  transform: translateY(-90%);
+}
+
+.arrowWrap img {
+  animation-name: indicate;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes indicate {
+  0% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(5%);
+  }
+}

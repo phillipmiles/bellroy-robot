@@ -1,8 +1,8 @@
-# Little Belroy Robot
+# Some Kind Of Robot
 
-A hosted demo of the little Belroy Robot can be found [here](https://bellroy-robot.vercel.app/).
+A hosted demo of the Some Kind Of Robot can be found [here](https://some-kind-of-robot.vercel.app/).
 
-To run the little Belroy Robot demo locally...
+To run the Some Kind Of Robot demo locally...
 
 1. `npm install`.
 2. `npm run build`
